@@ -1,4 +1,10 @@
-## Sobre 
+## Sobre o Pset
+
+- Professor: Abrantes 
+- Aluno: Nicolas Oliveira Goldner
+- Turma : CC1Md
+- Monitora : Suellen Miranda Amorim
+
 
 Primeiro trabalho feito e publicado no GitHub na matéria de Bando de Dados. Esse banco de dados foi criado para guardar e suportar informacoes sobre o bando de dados lojas uvv. O software cliente utilizado para vizualizar os bancos de dados foi o **DBeaver**.
 
