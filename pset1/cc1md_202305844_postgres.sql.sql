@@ -1,7 +1,7 @@
 
 -- Deletar Usuário, Schema e Banco de dados se existir
 
-DROP SCHEMA IF EXISTS lojas;
+
 DROP DATABASE IF EXISTS uvv;
 DROP USER IF EXISTS nicolas;
 
@@ -23,6 +23,8 @@ ALLOW_CONNECTIONS = true;
 set role nicolas;
 
 CREATE SCHEMA lojas;
+SET SEARCH_PATH TO lojas, "$user", public;
+ALTER user nicolas
 SET SEARCH_PATH TO lojas, "$user", public;
 COMMENT ON SCHEMA LOJAS IS 'schema loja que serve para facilitar a organizacao da criacao das tabelas';
 
